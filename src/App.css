@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.nav{
+  height: 60vh;
+  width: 40vw;
+  border: 2px solid rgb(187, 69, 136);
+  border-radius: 10px;
+ background-color: aqua;
+  opacity: 0.4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  gap: 15px;
+  
+  
+}
+button{
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-size: 120% auto;
+  background-image: linear-gradient(315deg, #833ab4 0%, #fd1d1d 50%, #fcb045);
+}
+button:hover {
+  background-position: right center;
+}
+button:active {
+  top: 2px;
+}
+
+input{
+  height: 5vh;
+  width: 20vw;
+  border: 2px solid rgb(187, 69, 136);
+  text-transform: capitalize;
+  background: none;
+}
+label{
+  text-transform: capitalize;
+  color: rgb(187, 69, 136);
+}
+
+.Navbar{
+height: 10vh;
+width: 100vw;
+background: none;
+background-color: rgb(184, 194, 197);
+box-shadow: 2px 3px 3px rgb(84, 82, 82);
+margin-bottom: 2px;
+border-radius: 2px;
+border: 1px solid grey;
+font-size: larger;
+display: flex;
+justify-content: space-around;
+padding-top: 20px;
+box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.body{
+  height: 100%;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjoR6I7b8mkq46mBdedNMpbT6HolRR4OZaTl81pQ1sTJiwekNi-uoO7x966owiXDuB_ug&usqp=CAU);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.text{
+  position: fixed;
+  left: 200px;
+  top: 200px;
+  font-size: 40px;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
